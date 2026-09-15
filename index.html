@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>نادي البنات الرياضي</title>
+
+<!-- Google Fonts -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=El+Messiri:wght@500;600;700&family=Tajawal:wght@400;500;700;900&display=swap" rel="stylesheet">
+
+<!-- Bootstrap 5 (RTL) -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.rtl.min.css">
+
+<!-- ملف الأنماط الخاص بينا -->
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ===== NAVBAR ===== -->
+<nav class="navbar navbar-expand-lg sticky-top custom-navbar">
+  <div class="container">
+    <a class="navbar-brand logo" href="#">حركة<span>.</span></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navMenu">
+      <ul class="navbar-nav ms-auto align-items-lg-center gap-lg-4">
+        <li class="nav-item"><a class="nav-link" href="#classes">الكلاسات</a></li>
+        <li class="nav-item"><a class="nav-link" href="#pricing">الأسعار</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">اشتركي</a></li>
+        <li class="nav-item mt-2 mt-lg-0">
+          <a href="#contact" class="btn btn-nav-cta">احجزي مكانك</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- ===== HERO ===== -->
+<header class="hero">
+  <div class="container">
+    <div class="row align-items-center gy-5">
+      <div class="col-lg-6">
+        <span class="hero-eyebrow">جيم مخصص للبنات والسيدات فقط</span>
+        <h1 class="hero-title">جسمك، وقتك، <em>قرارك</em>.<br>تعالي اتحركي معانا</h1>
+        <p class="hero-lead">مساحة آمنة ومريحة للبنات، من غير نظرات وغير إحراج. رقص شرقي، زومبا، وتمارين لياقة، مع مدربات بيفهموا احتياجك.</p>
+        <div class="d-flex flex-wrap gap-3 mt-4">
+          <a href="#contact" class="btn btn-primary-pink">ابدئي دلوقتي</a>
+          <a href="#classes" class="btn btn-ghost">شوفي الكلاسات</a>
+        </div>
+        <div class="d-flex gap-5 mt-5 hero-stats">
+          <div><b>+500</b><span>بنت مشتركة</span></div>
+          <div><b>3</b><span>أنواع كلاسات</span></div>
+          <div><b>6</b><span>أيام في الأسبوع</span></div>
+        </div>
+      </div>
+      <div class="col-lg-6">
+        <div class="hero-orb">
+          <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+            <circle cx="200" cy="200" r="160" fill="#25103A"/>
+            <circle cx="200" cy="200" r="160" fill="none" stroke="#FF2E7E" stroke-width="2" stroke-dasharray="6 10"/>
+            <path d="M120 250 Q140 130 200 150 Q260 170 260 250" fill="none" stroke="#C6FF3D" stroke-width="6" stroke-linecap="round"/>
+            <circle cx="200" cy="120" r="26" fill="#FF2E7E"/>
+            <path d="M170 175 Q200 155 230 175 L245 260 Q200 290 155 260 Z" fill="#7B2FF7"/>
+            <circle cx="120" cy="90" r="8" fill="#C6FF3D"/>
+            <circle cx="300" cy="130" r="5" fill="#C6FF3D"/>
+            <circle cx="80" cy="230" r="6" fill="#FF2E7E"/>
+          </svg>
+        </div>
+      </div>
+    </div>
+  </div>
+</header>
+
+<!-- ===== CLASSES ===== -->
+<section class="section" id="classes">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">الكلاسات</span>
+      <h2>اختاري اللي يناسب طاقتك</h2>
+      <p>كل كلاس ليه إحساسه الخاص، جربي وشوفي إنتي بتحبي إيه أكتر.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="class-card card-dance h-100">
+          <span class="tag">حركة وإحساس</span>
+          <div>
+            <svg class="icon" viewBox="0 0 48 48" fill="none"><circle cx="24" cy="10" r="6" fill="currentColor"/><path d="M14 42c2-10 4-16 10-16s8 6 10 16" stroke="currentColor" stroke-width="3" stroke-linecap="round"/><path d="M14 22 6 34M34 22l8 12" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></svg>
+            <h3>الرقص الشرقي</h3>
+            <p>تمارين خفيفة على إيقاع موسيقى شرقية، بتحرقي سعرات وإنتي مستمتعة.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="class-card card-zumba h-100">
+          <span class="tag">حرق سعرات</span>
+          <div>
+            <svg class="icon" viewBox="0 0 48 48" fill="none"><path d="M8 40 18 20l8 14 6-10 8 16" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/><circle cx="18" cy="20" r="3" fill="currentColor"/><circle cx="32" cy="24" r="3" fill="currentColor"/></svg>
+            <h3>زومبا</h3>
+            <p>كلاس جماعي بطاقة عالية على أغاني حماسية، مناسب لكل المستويات.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="class-card card-fitness h-100">
+          <span class="tag">قوة وتحمل</span>
+          <div>
+            <svg class="icon" viewBox="0 0 48 48" fill="none"><rect x="6" y="20" width="6" height="8" rx="2" fill="currentColor"/><rect x="36" y="20" width="6" height="8" rx="2" fill="currentColor"/><rect x="12" y="22" width="24" height="4" rx="2" fill="currentColor"/></svg>
+            <h3>فتنس</h3>
+            <p>تمارين لياقة وتقوية عضلات بتدريب مخصص حسب مستواك وهدفك.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== PRICING ===== -->
+<section class="section pricing" id="pricing">
+  <div class="container">
+    <div class="section-head">
+      <span class="section-tag">الاشتراكات</span>
+      <h2>باقات تناسب كل بنت</h2>
+      <p>من غير التزام مبالغ فيه، اختاري المدة اللي تريحك.</p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="price-card h-100 d-flex flex-column">
+          <div class="price-name">شهري</div>
+          <div class="price-note">مرونة كاملة، تجدّدي شهر بشهر</div>
+          <div class="price-amount">650<span> ج.م / شهر</span></div>
+          <div class="price-original">&nbsp;</div>
+          <ul class="list-unstyled flex-grow-1">
+            <li>دخول لكل الكلاسات</li>
+            <li>حجز كلاسات أونلاين</li>
+            <li>بدون رسوم اشتراك</li>
+          </ul>
+          <a href="#contact" class="price-btn">اشتركي شهري</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="price-card featured h-100 d-flex flex-column">
+          <span class="badge-best">الأكثر طلبًا</span>
+          <div class="price-name">3 شهور</div>
+          <div class="price-note">وفري وابقي مستمرة في تقدمك</div>
+          <div class="price-amount">1700<span> ج.م</span></div>
+          <div class="price-original">بدل 1950 ج.م</div>
+          <ul class="list-unstyled flex-grow-1">
+            <li>دخول لكل الكلاسات</li>
+            <li>جلسة تقييم لياقة مجانية</li>
+            <li>خصم 10% على أي كلاس خاص</li>
+          </ul>
+          <a href="#contact" class="price-btn">اشتركي 3 شهور</a>
+        </div>
+      </div>
+      <div class="col">
+        <div class="price-card h-100 d-flex flex-column">
+          <div class="price-name">سنوي</div>
+          <div class="price-note">أفضل قيمة لو قررتي تكملي</div>
+          <div class="price-amount">6000<span> ج.م</span></div>
+          <div class="price-original">بدل 7800 ج.م</div>
+          <ul class="list-unstyled flex-grow-1">
+            <li>دخول لكل الكلاسات</li>
+            <li>تجميد الاشتراك لمدة شهر</li>
+            <li>كلاس خاص واحد شهريًا هدية</li>
+          </ul>
+          <a href="#contact" class="price-btn">اشتركي سنوي</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== CONTACT ===== -->
+<section class="section" id="contact">
+  <div class="container">
+    <div class="row gy-5 align-items-center">
+      <div class="col-lg-5">
+        <h2 class="contact-title">جاهزة تبدئي؟</h2>
+        <p class="contact-lead">سيبي اسمك ورقمك وهنتواصل معاكي بأقرب فرصة نحدد ميعاد أول كلاس تجريبي ليكي.</p>
+        <div class="d-flex flex-column gap-3 contact-points">
+          <div><span class="dot"></span> مساحة نسائية بالكامل</div>
+          <div><span class="dot"></span> مدربات متخصصات</div>
+          <div><span class="dot"></span> مواعيد مرنة تناسب يومك</div>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        <div class="form-card">
+          <h3>احجزي مكانك</h3>
+          <p class="text-muted-custom">هنكلمك خلال 24 ساعة</p>
+          <form id="joinForm" novalidate>
+            <div class="mb-3">
+              <label for="name" class="form-label">الاسم</label>
+              <input type="text" class="form-control custom-input" id="name" name="name" placeholder="اكتبي اسمك" required>
+            </div>
+            <div class="mb-3">
+              <label for="phone" class="form-label">رقم الموبايل</label>
+              <input type="tel" class="form-control custom-input" id="phone" name="phone" placeholder="01xxxxxxxxx" required>
+            </div>
+            <button type="submit" class="btn form-submit w-100">إرسال الطلب</button>
+          </form>
+          <div class="form-success" id="formSuccess">تم استلام طلبك! هنتواصل معاكي قريب جدًا 🌸</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ===== FOOTER ===== -->
+<footer>
+  <div class="container d-flex flex-wrap align-items-center justify-content-between gap-3">
+    <div class="logo">حركة<span>.</span></div>
+    <div class="d-flex gap-4 foot-links">
+      <a href="#classes">الكلاسات</a>
+      <a href="#pricing">الأسعار</a>
+      <a href="#contact">اشتركي</a>
+    </div>
+    <div>© 2026 جميع الحقوق محفوظة</div>
+  </div>
+</footer>
+
+<!-- Bootstrap Bundle JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/js/bootstrap.bundle.min.js"></script>
+<!-- ملف الجافاسكريبت الخاص بينا -->
+<script src="script.js"></script>
+</body>
+</html>
